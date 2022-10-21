@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'europe-west4-docker.pkg.dev/lb-apig-cr-test/image/hello-app', '.']
+images:
+- 'europe-west4-docker.pkg.dev/lb-apig-cr-test/image/hello-app'

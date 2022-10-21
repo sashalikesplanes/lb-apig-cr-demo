@@ -1,0 +1,14 @@
+{
+  "name": "lb-apig-cr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sashalikesplanes/lb-apig-cr-demo.git",
+  "author": "Alexander Kiselev <a.kiselev@student.tudelft.nl>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
