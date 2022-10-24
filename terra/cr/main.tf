@@ -31,7 +31,7 @@ resource "google_cloud_run_service" "cloud_run" {
 data "google_iam_policy" "all_users_policy" {
   binding {
     role = "roles/run.invoker"
-    members = ["allUsers"]
+    members = ["serviceAccount:apig-service-account@lb-apig-cr-test.iam.gserviceaccount.com"]
   }
 }
 

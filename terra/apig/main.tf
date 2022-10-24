@@ -29,6 +29,12 @@ resource "google_api_gateway_api_config" "api_cfg" {
       contents = filebase64("spec.yaml")
     }
   }
+
+  gateway_config {
+    backend_config {
+      google_service_account = "apig-service-account@lb-apig-cr-test.iam.gserviceaccount.com"
+    }
+  }
 }
 
 resource "google_api_gateway_gateway" "gw" {
