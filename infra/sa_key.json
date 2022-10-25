@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "lb-apig-cr-test",
+  "private_key_id": "1e6a42a7294f92fee5b567d05cc6f8bb9bcd0440",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDJjzfkeGaafOPg\nOnDVunlS4OB4JrfqcXviMB69mCblkQDyml9LjFCSgJMjR0Bupcvs5Vak4AIP63lo\nJbr3LTsmmVHRkbQWmdJkXIyNPlBlrqglj5v6Dc5y7DFzZLqDdx+iNoGRuyKztw65\nRyIPuM+zDi8SmATZ2FqwCnjdAzaMwz7Fr5UmxTEKHlCSReR7wo8nSG2zB+4+rHqq\npdlcz2UJtfadxJKO5vxeVn5der2mrftRp7vmuHaMf29hSoRUsGvUUHSpbejfws1s\nPC971mpVVC+bZ6s33ddIIcoOFHxr8FQgq+1uhdO6Jwad2zzC//MilCEdH9ZbuRd5\nYMtA/mQrAgMBAAECggEAKw6dMgFGadokE9JoKEAdisbfLMuYnkx/2mHNL1NBe+jt\n+uVfVhQzYhh1ViPyb7CbT4/uYmo4Bo6W8NieiA7xg91czRgDEJDrkOT0YXfeVNpq\nsRtsho5Me+BY7/2kmlDoQQ7Dvw3q69k/G/VGIXWpaOaux5oR7zd4qAKUryHwlUD/\nI3++lUDKZA9oBQjGQg2JyyCjc3ATyr8lJoTqocrk9KBkBzYCCcAlAucrUkVjuchl\nttyjIk9/uvMVJWyFnS7WiVGFG2PV5z4TTTolKQq97vfIIt0D0g++EqMHG1TVGRfe\nbcIcFUb9Q9mNhpNuEaRT+pCyMqed/YhmxYWT53hDAQKBgQDovMtuWAOJDwFamnYD\nZRC+XYq+GTMX4ry98e2KT+CPpVsAyaJ+Y4hFn8dpCu6QSg0TsdeoUyMJRex++UD6\nRGtXZnZBrPtGkiKnLaMgMqmYBgv45dhHfOFzzqGt3WYGSRCtYaTRytKxrtgZV7Ul\nYGMGf1SxdxajmcW1nzR4eWH1kwKBgQDdtKasa+D3w6NSocgQ31REx8t2eZWCfFuy\nq6mov0zrDRI+iji68IXw6Q02y6i9UnWdCDfBrP1AnR+qCKDjtJ0TZvnTXyxkqSCw\nIa4UyVK6bxFfeX0gv5oVBZ88shKDVwG+oliOMT+FUfxlhL3Z2jsaTI+o7moHEf+X\nbkfx/hl2CQKBgQCuraRxuRVONTjq66tPePdMKaEMdJVohADs/zst6C2/Inhe6vdO\nrR2GRBnCuTW8jheqhHw8FcniF90cn68pJ1j5TCnNuSsPGHdxykr4y42GUGOD996Q\nKSZ9aMToXZdJeGVP/E1cOEJSocwHmVCYMPOh2MeUOrF/MNa3LjqPgWsIiQKBgQCz\neu6/gOnzyjZqy7vKJPH0aIZHWDB4HTKi1yOXD582XjOZ244HkHXuTMy8wmzNL3c1\ndBSnPuMartiWbzvIe0v6DBBNVKv8pYpn7Cwgecb2VLoMv65Tl6kmQZHisgoYt5Qa\n/xSPsEDLLk8U5DxJo8jbBoX6bV/6b1CqB8ZImruD+QKBgCJXxyMzHVOxlt/7NPci\nZ/TclIB1qFBalzXGONb1hV+U1Vy1Nic0GV/9kPBgk8NDofdh1MGdrSXPcKW4oE+f\nZtXt/LjeOyZvJOLzOSOJiZfTlRlYhvFjX9iLCzcjYUipfCUbzVVVoYAv2oA+o8PB\nUaGWzyHH+BmKfuFyIiio/UBZ\n-----END PRIVATE KEY-----\n",
+  "client_email": "cloud-run-invoker@lb-apig-cr-test.iam.gserviceaccount.com",
+  "client_id": "109622473081952132711",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloud-run-invoker%40lb-apig-cr-test.iam.gserviceaccount.com"
+}

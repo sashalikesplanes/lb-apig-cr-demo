@@ -1,0 +1,44 @@
+
+module "lb-http" {
+  source            = "GoogleCloudPlatform/lb-http/google//modules/serverless_negs"
+  version           = "~> 4.4"
+
+  project           = var.project
+  name              = "my-lb"
+
+  ssl                             = true
+  private_key = file("${path.module}/PRIVATEKEY.key")
+  certificate = file("${path.module}/cert")
+  https_redirect                  = true
+
+  cdn = false
+  create_address = true
+
+  backends = {
+    default = {
+      description                     = null
+      enable_cdn                      = false
+      custom_request_headers          = null
+      custom_response_headers         = null
+      security_policy                 = null
+
+      log_config = {
+        enable = false
+        sample_rate = 1.0
+      }
+
+      groups = [
+        {
+          # Your serverless service should have a NEG created that's referenced here.
+          group = google_compute_region_network_endpoint_group.neg.id
+        }
+      ]
+
+      iap_config = {
+        enable               = false
+        oauth2_client_id     = null
+        oauth2_client_secret = null
+      }
+    }
+  }
+}
